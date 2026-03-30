@@ -1,4 +1,4 @@
-This is contains PF2E playtest material for Legendary Luminaries.
+This is contains PF2E playtest material for Lost Almanac.
 
 This module is written for the PF2e FoundryVTT System.
 Module Author: Dustin Voss (Aclethos)
