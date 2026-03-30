@@ -1,0 +1,90 @@
+{
+  "id": "lost-almanac",
+  "title": "Lost Almanac",
+  "version": "1.0.0",
+  "url": "https://github.com/aclethos/Southern-Realm-Games",
+  "download": "https://github.com/aclethos/Lost-Almanac/releases/download/1.0.0/module.zip",
+  "manifest": "https://github.com/aclethos/lost-almanac/releases/latest/download/module.json",
+
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Dustin Voss",
+      "discord": "Aclethos",
+      "flags": {}
+    },
+    {
+      "name": "Matthew C. Ninness",
+      "discord": "tabletop.obscura",
+      "flags": {}
+    },
+    {
+      "name": "Dan Hutton",
+      "discord": "dantalkygamer",
+      "flags": {}
+    },
+    {
+      "name": "Shawn Pommier",
+      "discord": "eldritchdream",
+      "flags": {}
+    },
+    {
+      "name": "Simon Hunter",
+      "discord": "simon.the.hunter",
+      "flags": {}
+    }
+  ],
+  "flags": {
+        "lost-almanac": {
+            "pf2e-homebrew": {
+                "featTraits": {
+                    "teamwork": "Teamwork"
+                }
+                }
+            }
+        },
+  "packs": [
+    {
+      "name": "lost-almanac-general-feats",
+      "label": "Lost Almanac - Feats",
+      "path": "packs/lost-almanac-general-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lost-alamanac-companions",
+      "label": "Lost Almanac - Companions",
+      "path": "packs/lost-alamanac-companions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-animal-companions",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
