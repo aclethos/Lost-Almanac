@@ -1,9 +1,9 @@
 {
   "id": "lost-almanac",
   "title": "Lost Almanac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "url": "https://github.com/aclethos/Southern-Realm-Games",
-  "download": "https://github.com/aclethos/Lost-Almanac/releases/download/1.0.0/module.zip",
+  "download": "https://github.com/aclethos/Lost-Almanac/releases/download/1.0.1/module.zip",
   "manifest": "https://github.com/aclethos/lost-almanac/releases/latest/download/module.json",
 
   "compatibility": {
